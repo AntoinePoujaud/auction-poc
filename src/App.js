@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {Current_Lot} from './Current_Lot/Current_Lot';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Current_Lot />
         <a
           className="App-link"
           href="https://reactjs.org"
