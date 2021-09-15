@@ -1,11 +1,11 @@
+import { Lot } from "./Lot/Lot";
+import { All_Lots } from "../All_Lots/All_Lots";
+
 export function Current_Lot(props) {
     return (
         <div>
-            <h1>Damien</h1>
-            <img src={props.photo}/> 
-            <p>description</p>
-            <p>estimation</p>
-            <p>current highest bid</p>
+            <Lot />
+            <All_Lots />
         </div>
     )
 }
