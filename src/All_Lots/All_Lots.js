@@ -1,4 +1,4 @@
-export function All_Lots(props) {
+export function AllLots(props) {
     
     return (
         <div>
